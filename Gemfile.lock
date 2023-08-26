@@ -8,6 +8,9 @@ GEM
     puma (6.3.1)
       nio4r (~> 2.0)
     rack (2.2.8)
+    rackup (1.0.0)
+      rack (< 3)
+      webrick
     raindrops (0.20.1)
     thin (1.8.2)
       daemons (~> 1.0, >= 1.0.9)
@@ -16,6 +19,7 @@ GEM
     unicorn (6.1.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -23,6 +27,7 @@ PLATFORMS
 DEPENDENCIES
   puma (~> 6.3)
   rack (~> 2.2)
+  rackup (~> 1.0)
   thin (~> 1.8)
   unicorn (~> 6.1)
 

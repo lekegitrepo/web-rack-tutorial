@@ -13,3 +13,5 @@ gem "thin", "~> 1.8"
 gem "unicorn", "~> 6.1"
 
 gem "rack", "~> 2.2"
+
+gem "rackup", "~> 1.0"
