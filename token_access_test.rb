@@ -7,5 +7,7 @@ class TokenAccessTest < ActionDispatch::IntegrationTest
   end
 
   test 'returns error for invalid or missing tokens' do
+    get middleware_path
+    assert_equal 'invalid or missing token', response.body
   end
 end
